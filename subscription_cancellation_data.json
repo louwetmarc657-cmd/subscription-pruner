@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-09",
+  "description": "首批 5 款主流高频订阅 App 官方取消自动续费指引数据集（支持消肿计算器与多渠道退订导航）",
+  "metadata": {
+    "total_apps": 5,
+    "combined_default_monthly_total": 114.0,
+    "combined_annual_cost_total": 1368.0,
+    "supported_channels": [
+      "ios_settings",
+      "alipay",
+      "wechat",
+      "app_native"
+    ]
+  },
+  "apps": [
+    {
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "category": "视频娱乐",
+      "tier_name": "黄金VIP会员连续包月",
+      "default_monthly_price": 25.0,
+      "annual_cost_estimate": 300.0,
+      "official_source_url": "https://www.iqiyi.com/common/auto-renewal-rules-cn.html",
+      "updated_at": "2026-09",
+      "cancellation_notice_rule": "建议至少在当前订阅周期结束前 24 小时取消，以避免系统进入自动代扣流程；取消后当期 VIP 权益保留至有效期届满。",
+      "cancel_routes": {
+        "ios_settings": "打开苹果设备「设置」 -> 点击顶部「Apple ID / Apple 账户（头像与姓名）」 -> 点击「订阅」 -> 选择「爱奇艺」 -> 点击「取消订阅」并确认",
+        "alipay": "打开支付宝 -> 点击右下角「我的」 -> 点击右上角「设置」图标（齿轮） -> 进入「支付设置」 -> 点击「免密支付/自动扣款」 -> 选中「爱奇艺」相关签约代扣项目 -> 点击「关闭服务」",
+        "wechat": "打开微信 -> 点击右下角「我」 -> 点击「服务」 -> 点击「钱包」 -> 点击「支付设置」 -> 进入「自动续费」或「扣费服务」 -> 选择「爱奇艺」 -> 点击「关闭扣费服务」",
+        "app_native": "打开爱奇艺 App -> 点击右下角「我的」进入会员资产专区 -> 点击「我的资产」/「我的会员资产」 -> 点击「管理自动续费」 -> 点击「取消自动续费」并确认"
+      }
+    },
+    {
+      "id": "tencent_video",
+      "name": "腾讯视频",
+      "category": "视频娱乐",
+      "tier_name": "腾讯视频VIP连续包月",
+      "default_monthly_price": 25.0,
+      "annual_cost_estimate": 300.0,
+      "official_source_url": "https://film.qq.com/term.html",
+      "updated_at": "2026-09",
+      "cancellation_notice_rule": "支付渠道通常在扣款日前 5 天推送预扣费提醒；须在每个计费周期结束前 24 小时关闭自动续订，到期前 24 小时内不再发起新一期扣费。",
+      "cancel_routes": {
+        "ios_settings": "打开苹果设备「设置」 -> 点击顶部「Apple ID / Apple 账户」 -> 点击「订阅」 -> 选中「腾讯视频」 -> 点击「取消订阅」并确认",
+        "alipay": "打开支付宝 -> 点击右下角「我的」 -> 点击右上角「设置」 -> 点击「支付设置」 -> 点击「免密支付/自动扣款」 -> 找到「腾讯视频」签约项目 -> 点击「关闭服务」",
+        "wechat": "打开微信 -> 点击右下角「我」 -> 点击「服务」 -> 点击「钱包」 -> 点击「支付设置」 -> 点击「自动续费」或「扣费服务」 -> 找到「腾讯视频VIP自动续费」 -> 点击「关闭服务」",
+        "app_native": "打开腾讯视频 App -> 点击右下角「个人中心」 -> 点击「VIP会员」区域 -> 点击「续费管理」或「管理自动续费」 -> 点击「关闭」或「确认取消」"
+      }
+    },
+    {
+      "id": "netease_music",
+      "name": "网易云音乐",
+      "category": "音频娱乐",
+      "tier_name": "黑胶VIP连续包月",
+      "default_monthly_price": 15.0,
+      "annual_cost_estimate": 180.0,
+      "official_source_url": "https://y.music.163.com/m/at/vipAutopay",
+      "updated_at": "2026-09",
+      "cancellation_notice_rule": "网易在下一个订阅期扣款前 5 日以站内信通知；苹果用户须在到期前 24 小时前主动取消；安卓/鸿蒙第三方支付渠道自到期前 1 天开始代扣。",
+      "cancel_routes": {
+        "ios_settings": "打开 iOS 设备「App Store」 -> 点击右上角苹果账户头像 -> 进入「账户」 -> 点击「订阅」 -> 选择「网易云音乐」 -> 点击「取消订阅」；或在系统「设置」 -> 「Apple ID」 -> 「订阅」中取消",
+        "alipay": "打开支付宝 -> 点击右下角「我的」 -> 点击右上角「设置」 -> 点击「支付设置」 -> 点击「免密支付/自动扣款」 -> 选中「网易云音乐」 -> 点击「关闭服务」",
+        "wechat": "打开微信 -> 点击「我」 -> 「服务」 -> 「钱包」 -> 「支付设置」 -> 「自动续费/扣费服务」 -> 选中「网易云音乐」 -> 点击「关闭服务」",
+        "app_native": "打开网易云音乐 App -> 点击左上角抽屉侧边栏 -> 进入「我的客服」 -> 点击「管理自动续费」 -> 取消订阅自动续费；或在电脑端登录官网 (music.163.com) 点击个人头像 ->「VIP会员」->「管理自动续费」关闭"
+      }
+    },
+    {
+      "id": "baidu_netdisk",
+      "name": "百度网盘",
+      "category": "工具与网盘",
+      "tier_name": "超级会员SVIP连续包月",
+      "default_monthly_price": 30.0,
+      "annual_cost_estimate": 360.0,
+      "official_source_url": "https://pan.baidu.com/disk/autoduty",
+      "updated_at": "2026-09",
+      "cancellation_notice_rule": "百度网盘在自动续费前 5 日以短信等显著方式通知；系统在每个计费周期到期前 24 小时自动划扣，未在到期前至少 24 小时取消的将进入自动续订扣款。",
+      "cancel_routes": {
+        "ios_settings": "打开苹果设备「设置」 -> 点击顶部「Apple ID / Apple 账户」 -> 点击「订阅」 -> 选中「百度网盘」 -> 点击「取消订阅」并确认",
+        "alipay": "打开支付宝 -> 点击右下角「我的」 -> 点击右上角「设置」 -> 点击「支付设置」 -> 点击「免密支付/自动扣款」 -> 找到「百度网盘 / 北京度友科技 / 百度」自动扣款服务 -> 点击「关闭服务」",
+        "wechat": "打开微信 -> 点击「我」 -> 「服务」 -> 「钱包」 -> 「支付设置」 -> 「自动续费/扣费服务」 -> 找到「百度网盘」 -> 点击「关闭服务」",
+        "app_native": "打开百度网盘 App -> 点击「我的」 -> 点击头像下方「超级会员SVIP」或「我的会员」 -> 点击右上角「管理自动续费」 -> 点击「取消自动续费」；亦可电脑端访问 (pan.baidu.com/buy/center) 登录后取消"
+      }
+    },
+    {
+      "id": "wps_office",
+      "name": "WPS Office",
+      "category": "办公效率与工具",
+      "tier_name": "WPS超级会员连续包月",
+      "default_monthly_price": 19.0,
+      "annual_cost_estimate": 228.0,
+      "official_source_url": "https://vip.wps.cn/wap/help/monthcard",
+      "updated_at": "2026-09",
+      "cancellation_notice_rule": "金山办公在服务期限届满前 7 天、3 天以及当天通过邮件/站内消息提示；建议至少在扣款日前 24 小时完成解约操作。",
+      "cancel_routes": {
+        "ios_settings": "打开苹果设备「设置」 -> 点击顶部「Apple ID / Apple 账户」 -> 点击「订阅」 -> 选中「WPS Office」 -> 点击「取消订阅」",
+        "alipay": "打开支付宝 -> 点击「我的」 -> 点击右上角「设置」 -> 进入「支付设置」 -> 点击「免密支付/自动扣款」 -> 选中「WPS连续包月服务 / 珠海金山办公」 -> 点击「关闭服务」解约",
+        "wechat": "打开微信 -> 点击「我」 -> 「服务」 -> 「钱包」 -> 「支付设置」 -> 「自动续费/扣费服务」 -> 找到「WPS会员」 -> 点击「关闭扣费服务」",
+        "app_native": "打开手机 WPS Office App -> 点击右下角「我」 -> 点击「钱包」 -> 点击右上角「续费管理」 -> 找到对应的自动续费订单并点击「关闭」；或在 PC 客户端点击「个人中心」->「续费管理」->「取消」"
+      }
+    }
+  ]
+}
